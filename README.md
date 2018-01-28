@@ -89,9 +89,9 @@ A really helpful resource for doing this project and creating smooth trajectorie
 
 ## WRITEUP
 Very simple path planner using the Spline implementation from [http://kluge.in-chemnitz.de/opensource/spline/] http://kluge.in-chemnitz.de/opensource/spline/ to get smooth waypoints.
-   * the code use to implement the spline can be found start at line 312 from the main.cpp
+   * the code used to implement the spline can be found starting at line 312 from the main.cpp
 
-I used a set o behaviors clauses to set the rules on how the car should work your way without(most of the time) collide.
+I have set some behaviors clauses to set on how the car should work your way without(most of the time) collide.
 To do so some flags are set in each behavior detected:
 * is_close is set to True if the car in front is too close, we adjust the speed and a lane change is performed if possible
 * we check the right and left to verify that the vehicles are in safe distances
